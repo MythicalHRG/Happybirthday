@@ -9,7 +9,7 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
 <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
 
-  <title>Happy Birthday Aradhya Di</title>
+  <title>Happy Birthday Aradhya</title>
 </head>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Itim&display=swap');
@@ -137,7 +137,7 @@ svg.line{fill: none;stroke-width: 2;animation: moving .7s linear infinite altern
 <body>
 
   <!-- Ganti Audio di sini -->
-  <audio src="" id="linkmp3" class="sembunyi"></audio>
+  <audio src="./assets/bg.mp3" id="linkmp3" class="sembunyi"></audio>
 
   <div id="bodyblur">
     <!-- Wallpaper / Background --><img src="./assets/wp2.jpeg" id="wallpaper" />
@@ -185,8 +185,16 @@ svg.line{fill: none;stroke-width: 2;animation: moving .7s linear infinite altern
             <span>I Just Want To <br>Say You 😆</span>
           </b></p>
 
+        <p><b><img src="./assets/mikir.gif" /><br>
+            <span>Bol Du Kya?</span>
+          </b></p>
+ 
+       <p><b><img src="./assets/mikir.gif" /><br>
+            <span>Ruko Sochne Do...<br>Ha Thik Hai Swipe Karo </span>
+          </b></p>
+
         <p><b><img src="./assets/cilukba.gif" /><br>
-            <span>It is your birthday today 😜. I think today is 4 May 2025</span>
+            <span>I Think today is 4th Day Of May, 2025<br>And Maybe it's Your Birthday, Right?</span>
           </b></p>
 
         <p><b><img src="./assets/g5.gif" /><br>
@@ -237,7 +245,7 @@ svg.line{fill: none;stroke-width: 2;animation: moving .7s linear infinite altern
     tomnegatif = "No";
     async function aksibalas() {
       var { isConfirmed: prtanya } = await swals.fire({
-        title: 'Do you want a gift? 🤭❤️',
+        title: 'Do you want a gift?❤️<br>(*Pata hai Mana Karegi🤭)<br>(*Dekhe Hain Tere Nakhre😂)',
         imageUrl: '' + fotostikerPopup.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif, cancelButtonColor: '#FF0000',
       });
       if (prtanya) {
